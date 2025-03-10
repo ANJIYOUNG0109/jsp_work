@@ -8,10 +8,8 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-
 public class GetServlet03 extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String message = request.getParameter("msg");
@@ -23,7 +21,7 @@ public class GetServlet03 extends HttpServlet {
 		out.print("<h1>Get Servlet 방식</h1>");
 		out.print("<h3>메세지 : " + message + "</h3>");
 		out.print("</body>");
-		out.print("/<html>");
+		out.print("</html>");
 	}
 
 }

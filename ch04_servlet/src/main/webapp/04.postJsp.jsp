@@ -8,12 +8,11 @@
 </head>
 <body>
 	<h1>Post Servlet방식</h1>
-	<from method="post" action="PostServlet">
-		ID : <input name = "id"><p/>
-		PW : <input Type = "password" name="pwd"><p/>
-		email : <input type = "email" name="email"><p/>
+	<form method="post" action="PostServlet">
+		ID : <input name="id"><p/>
+		PW : <input type="password" name="pwd"><p/>
+		email : <input type="email" name="email"><p/>
 		<input type="submit" value="회원가입">
-	</from>
-
+	</form>
 </body>
 </html>

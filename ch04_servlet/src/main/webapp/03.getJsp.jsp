@@ -12,6 +12,5 @@
 		msg : <input name="msg"><p/>
 		<input type="submit" value="전송">
 	</form>
-
 </body>
 </html>
